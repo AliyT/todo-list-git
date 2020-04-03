@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './AppPage.module.sass'
+import Todo from "./Todo/Todo";
 
 const AppPage = () => {
     return (
@@ -13,11 +14,9 @@ const AppPage = () => {
                             <input type="text"/>
                             <button>Добавить</button>
                         </div>
-                        <div className={s.todoItem}>
-                            <input type="text"/>
-                            <button>Удалить</button>
-                            <button>Изменить</button>
-                        </div>
+
+                        <Todo />
+
                     </div>
 
                 </div>
