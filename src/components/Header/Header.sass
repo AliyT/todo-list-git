@@ -1,0 +1,29 @@
+$cMain: #009999
+$navColor: #2b2b2b
+
+.header
+  display: grid
+  grid-template-columns: 1fr 11fr
+  grid-row: 1/2
+  grid-column: 1/4
+  background-color: $cMain
+  .logoWrapper
+    justify-self: center
+    align-self: center
+    margin: 8px
+
+    img
+      width: 60px
+      margin-right: 45px
+
+  nav
+    display: flex
+    align-items: center
+
+    div:nth-child(1)
+      margin-right: 25px
+    a
+      text-decoration: none
+      text-transform: uppercase
+      color: $navColor
+      font-weight: bold
