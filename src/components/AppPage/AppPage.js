@@ -1,19 +1,19 @@
-import React from 'react';
-import './App.sass';
+import React from 'react'
+import s from './AppPage.module.sass'
 
-const App = () => {
+const AppPage = () => {
     return (
         <>
-            <div className="contentWrapper">
+            <div className={s.contentWrapper}>
 
-                <div className="todoList">
+                <div className={s.todoList}>
                     <h1>Список дел</h1>
-                    <div className="todosWrapper">
-                        <div className="add">
+                    <div className={s.todosWrapper}>
+                        <div className={s.add}>
                             <input type="text"/>
                             <button>Добавить</button>
                         </div>
-                        <div className="todo-item">
+                        <div className={s.todoItem}>
                             <input type="text"/>
                             <button>Удалить</button>
                             <button>Изменить</button>
@@ -22,7 +22,7 @@ const App = () => {
 
                 </div>
             </div>
-            <div className="mainImg">
+            <div className={s.mainImg}>
                 <img
                     src="https://www.maistecnologia.com/wp-content/uploads/2014/09/10540977_1490059594582195_1269350403_n.png"
                     alt="" />
@@ -31,4 +31,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default AppPage;

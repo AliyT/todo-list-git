@@ -1,5 +1,6 @@
 $cMain: #009999
 $navColor: #2b2b2b
+$active: gold
 
 .header
   display: grid
@@ -25,5 +26,8 @@ $navColor: #2b2b2b
     a
       text-decoration: none
       text-transform: uppercase
-      color: $navColor
+      color: unset
       font-weight: bold
+
+    .link.active
+        color: $active
