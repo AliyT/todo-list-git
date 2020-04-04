@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb00b7cd-6c68-42d6-8f5e-5d838c356d59" name="Default Changelist" comment="">
+    <list default="true" id="fb00b7cd-6c68-42d6-8f5e-5d838c356d59" name="Default Changelist" comment="css module.sass">
+      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todo/Todo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.module.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppPage/Todo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppPage/Todos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -43,7 +48,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todo" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list\src\components\AppPage" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list\src\components" />
@@ -106,6 +115,7 @@
       <workItem from="1585903458527" duration="147000" />
       <workItem from="1585912165661" duration="4105000" />
       <workItem from="1585936221490" duration="2088000" />
+      <workItem from="1585991005286" duration="6008000" />
     </task>
     <servers />
   </component>
@@ -125,6 +135,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css module.sass" />
+    <option name="LAST_COMMIT_MESSAGE" value="css module.sass" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1006" y="222" key="#ESLint" timestamp="1585937170774">
       <screen x="0" y="40" width="1920" height="1040" />
@@ -138,6 +152,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1585894858965" />
+    <state x="1014" y="184" key="CommitChangelistDialog2" timestamp="1585997004102">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585997004102" />
     <state x="1148" y="331" key="EditFileWatcherDialog" timestamp="1585677225748">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -146,22 +164,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1585903585194" />
-    <state width="803" height="210" key="GridCell.Tab.0.bottom" timestamp="1585938369093">
+    <state width="936" height="210" key="GridCell.Tab.0.bottom" timestamp="1585991769030">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="803" height="210" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585938369093" />
-    <state width="803" height="210" key="GridCell.Tab.0.center" timestamp="1585938369093">
+    <state width="936" height="210" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
+    <state width="936" height="210" key="GridCell.Tab.0.center" timestamp="1585991769030">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="803" height="210" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585938369093" />
-    <state width="803" height="210" key="GridCell.Tab.0.left" timestamp="1585938369093">
+    <state width="936" height="210" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
+    <state width="936" height="210" key="GridCell.Tab.0.left" timestamp="1585991769026">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="803" height="210" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585938369093" />
-    <state width="803" height="210" key="GridCell.Tab.0.right" timestamp="1585938369093">
+    <state width="936" height="210" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769026" />
+    <state width="936" height="210" key="GridCell.Tab.0.right" timestamp="1585991769030">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="803" height="210" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585938369093" />
+    <state width="936" height="210" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
     <state x="695" y="157" width="998" height="859" key="SettingsEditor" timestamp="1585903601205">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -5,10 +5,10 @@ const Todo = () => {
     return (
         <>
             <div className={s.todoItem}>
-                <div>
+                <span>
                     <input className={s.checkbox} type="checkbox"/>
-                </div>
-                <input type="text"/>
+                </span>
+                <input type="text" className={s.input}/>
                 <button>Удалить</button>
                 <button>Изменить</button>
             </div>

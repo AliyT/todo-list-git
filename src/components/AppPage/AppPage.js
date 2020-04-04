@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './AppPage.module.sass'
-import Todo from "./Todo/Todo";
+import MyTodos from "./Todos/MyTodos";
 
 const AppPage = () => {
     return (
@@ -10,12 +10,14 @@ const AppPage = () => {
                 <div className={s.todoList}>
                     <h1>Список дел</h1>
                     <div className={s.todosWrapper}>
+
+                         {/*Добавить задачу*/}
                         <div className={s.add}>
-                            <input type="text"/>
+                            <input type="text" placeholder="Введите название дела"/>
                             <button>Добавить</button>
                         </div>
 
-                        <Todo />
+                        <MyTodos />
 
                     </div>
 
