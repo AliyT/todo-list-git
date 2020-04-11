@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb00b7cd-6c68-42d6-8f5e-5d838c356d59" name="Default Changelist" comment="css module.sass">
-      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" afterDir="false" />
+    <list default="true" id="fb00b7cd-6c68-42d6-8f5e-5d838c356d59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todo/Todo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.sass" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1ZtC2wOGZKtJif9WiNd7RljBil1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,8 +47,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppPage/Todos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header/Navbar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -45,18 +58,31 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Header\Navbar" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\AddTodo" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todo" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list\src\components\AppPage" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list\src\components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -74,18 +100,6 @@
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,8 +129,26 @@
       <workItem from="1585903458527" duration="147000" />
       <workItem from="1585912165661" duration="4105000" />
       <workItem from="1585936221490" duration="2088000" />
-      <workItem from="1585991005286" duration="6008000" />
+      <workItem from="1585991005286" duration="6089000" />
+      <workItem from="1586013141435" duration="45000" />
+      <workItem from="1586102632734" duration="518000" />
+      <workItem from="1586105136745" duration="136000" />
+      <workItem from="1586105302281" duration="532000" />
+      <workItem from="1586276261948" duration="3766000" />
+      <workItem from="1586342838705" duration="82000" />
+      <workItem from="1586362577257" duration="1000" />
+      <workItem from="1586437925015" duration="1000" />
+      <workItem from="1586543136428" duration="1000" />
+      <workItem from="1586620709129" duration="2044000" />
     </task>
+    <task id="LOCAL-00001" summary="css module.sass">
+      <created>1585997076399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585997076399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,10 +184,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1585894858965" />
-    <state x="1014" y="184" key="CommitChangelistDialog2" timestamp="1585997004102">
+    <state x="1014" y="184" key="CommitChangelistDialog2" timestamp="1585997074739">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585997004102" />
+    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585997074739" />
     <state x="1148" y="331" key="EditFileWatcherDialog" timestamp="1585677225748">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -164,26 +196,26 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1585903585194" />
-    <state width="936" height="210" key="GridCell.Tab.0.bottom" timestamp="1585991769030">
+    <state width="859" height="343" key="GridCell.Tab.0.bottom" timestamp="1585997110653">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="936" height="210" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
-    <state width="936" height="210" key="GridCell.Tab.0.center" timestamp="1585991769030">
+    <state width="859" height="343" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
+    <state width="859" height="343" key="GridCell.Tab.0.center" timestamp="1585997110653">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="936" height="210" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
-    <state width="936" height="210" key="GridCell.Tab.0.left" timestamp="1585991769026">
+    <state width="859" height="343" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
+    <state width="859" height="343" key="GridCell.Tab.0.left" timestamp="1585997110653">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="936" height="210" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769026" />
-    <state width="936" height="210" key="GridCell.Tab.0.right" timestamp="1585991769030">
+    <state width="859" height="343" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
+    <state width="859" height="343" key="GridCell.Tab.0.right" timestamp="1585997110653">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="936" height="210" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585991769030" />
-    <state x="695" y="157" width="998" height="859" key="SettingsEditor" timestamp="1585903601205">
+    <state width="859" height="343" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor" timestamp="1586103047677">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="695" y="157" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1585903601205" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1586103047677" />
     <state x="1164" y="270" key="search.everywhere.popup" timestamp="1585665861701">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
