@@ -2,10 +2,14 @@ $cMain: #009999
 
 .wrapper
     display: grid
-    grid-template-rows: 1fr 6fr 4fr 1fr
+    grid-template-rows: 0.5fr 6fr 4fr 0.5fr
     grid-template-columns: 1fr 10fr 1fr
     grid-gap: 8px
+    user-select: none
+    background-color: #CCFFFF
+    .pageWrapperContent
+        grid-row: 2/3
+        grid-column: 2/3
     button
         cursor: pointer
 
-    user-select: none
