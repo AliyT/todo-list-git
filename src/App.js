@@ -4,18 +4,21 @@ import Header from "./components/Header/Header";
 import AppPage from "./components/AppPage/AppPage";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import {BrowserRouter, Route} from "react-router-dom";
 
-function App() {
+const App = (props) => {
     return (
-        <div className="wrapper">
-            <Header />
-            <div className="pageWrapperContent">
-                <AppPage />
-                {/*<About />*/}
+        <BrowserRouter>
+            <div className="wrapper">
+                <Header/>
+                <div className="pageWrapperContent">
+                    <Route path='/app' component={AppPage}/>
+                    <Route path='/about' component={About}/>
+                </div>
+                <Footer/>
             </div>
-            <Footer />
-        </div>
-    );
+        </BrowserRouter>
+    )
 }
 
 export default App;

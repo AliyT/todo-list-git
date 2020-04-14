@@ -5,7 +5,7 @@ import Todo from "./Todo/Todo";
 const MyTodos = () => {
     return (
         <>
-            <p className={s.p} c>Выполни дела сегодня!</p>
+            <p className={s.p}>Выполни дела сегодня!</p>
             <hr/>
             <div className={s.myTodos}>
                 <Todo todo="Купить хлеб"/>

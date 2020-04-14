@@ -3,21 +3,19 @@ import s from './Todo.module.sass'
 
 const Todo = (props) => {
     return (
-        <>
-            <div className={s.todoItem}>
-
-                <span>
-                    <input className={s.checkbox} type="checkbox"/>
+        <div className={s.todoItem}>
+                <span className={s.checkbox}>
+                    <input type="checkbox"/>
                 </span>
-                <span className={s.todoList}>
+            <span className={s.todo}>
                     {props.todo}
                 </span>
-                {/*<input type="text" className={s.input}/>*/}
+            {/*<input type="text" className={s.input}/>*/}
+            <div className={s.buttonsItem}>
                 <button>Удалить</button>
                 <button>Изменить</button>
             </div>
-
-        </>
+        </div>
     );
 };
 
