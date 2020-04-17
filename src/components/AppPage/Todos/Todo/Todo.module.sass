@@ -1,25 +1,18 @@
 .todoItem
+  display: grid
+  grid-template-columns: 20px 11fr auto
   margin-bottom: 30px
-  .buttonsItem
-    display: inline-block
-    position: absolute
-    right: 20%
-
-
-  .checkbox
-    margin-right: 10px
-
+  align-items: center
+  grid-column-gap: 5px
+  .buttonsBlock
   input, button
-    display: inline-block
     padding: 8px 13px
+  button
     margin-right: 8px
-
     &:last-child
       margin-right: 0
-
   .input, .todo
-    border: 1px solid red
-    width: 60%
+
 
 
 
