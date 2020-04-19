@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b316947-32a1-44cb-bc77-a3fbb4022475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/Todo/Todo.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +153,9 @@
       <workItem from="1587105483763" duration="2374000" />
       <workItem from="1587144083659" duration="384000" />
       <workItem from="1587175243153" duration="5471000" />
-      <workItem from="1587262785981" duration="6099000" />
+      <workItem from="1587262785981" duration="6246000" />
+      <workItem from="1587269061406" duration="228000" />
+      <workItem from="1587279441954" duration="2452000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
