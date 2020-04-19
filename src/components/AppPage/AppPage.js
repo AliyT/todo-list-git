@@ -10,8 +10,11 @@ const AppPage = (props) => {
             <div className={s.contentWrapper}>
                 <div className={s.todoList}>
                     <h1>Список дел</h1>
-                    <AddTodo/>
-                    <MyTodos todosApp={props.state}/>
+                    <AddTodo addTodoItem={props.addTodoItem}
+                             newTodoText={props.appPage.newTodoText}
+                             updateNewTodoText={props.updateNewTodoText}
+                    />
+                    <MyTodos todosApp={props.appPage}/>
                 </div>
             </div>
         </>

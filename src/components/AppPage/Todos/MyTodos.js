@@ -4,8 +4,8 @@ import Todo from "./Todo/Todo";
 
 const MyTodos = (props) => {
 
-    let todoElement = props.todosApp.todos
-        .map(t =>  <Todo todo={t.todo}/>)
+    let todoElement =
+        props.todosApp.todos.map(t =>  <Todo todo={t.todo}/>)
 
     return (
         <>

@@ -13,7 +13,12 @@ const App = (props) => {
             <div className="wrapper">
                 <Header/>
                 <div className="pageWrapperContent">
-                    <Route path='/app'   render={ () => <AppPage state={props.state.appPage}/> }/>
+                    <Route path='/app' render={ () =>
+                        <AppPage
+                            appPage={props.state.appPage}
+                            addTodoItem={props.addTodoItem}
+                            updateNewTodoText={props.updateNewTodoText}
+                        />  }/>
                     <Route path='/about' render={ () => <About/> }/>
                 </div>
                 <Footer/>
