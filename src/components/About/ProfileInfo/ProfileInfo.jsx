@@ -6,11 +6,13 @@ const ProfileInfo = () => {
         <div className={s.profileInfo}>
             <div className={s.avatarImg}>
                 <img
-                    src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/122262975/original/0abc45118810fbb603495935275b3f1e170c8ab4/create-minimalist-avatar-social-media-profile-picture.png" alt=""/>
+                    src="https://clck.ru/N43d9" alt=""/>
             </div>
-            <div>ФИО: </div>
-            <div>Год рождения: </div>
-            <div>Номер телефона: </div>
+            <div className={s.userInfo}>
+                <div>ФИО:</div>
+                <div>Год рождения:</div>
+                <div>Номер телефона:</div>
+            </div>
         </div>
     )
 }

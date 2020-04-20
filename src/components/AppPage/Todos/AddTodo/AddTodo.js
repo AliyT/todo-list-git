@@ -6,12 +6,15 @@ const AddTodo = (props) => {
     let newTodoElement = React.createRef();
 
     let addTodoItem = () => {
-        props.addTodoItem();
+        // props.addTodoItem();
+        props.dispatch({type: 'ADD-TODO-ITEM'});
     }
 
     let onTodoChange = () => {
-        let text = newTodoElement.current.value
-        props.updateNewTodoText(text)
+        let text = newTodoElement.current.value;
+        // props.updateNewTodoText(text)
+        let action = {type: 'UPDATE-NEW-TODO-TEXT', newTodoText: text};
+        props.dispatch(action);
     }
 
     return (

@@ -3,22 +3,23 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.sass'
 import App from './App'
-import {addTodoItem, subscriber, updateNewTodoText} from "./redux/state";
-import state from "./redux/state";
+import store from "./redux/state";
 
 let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <React.StrictMode>
             <App state={state}
-                 addTodoItem={addTodoItem}
-                 updateNewTodoText={updateNewTodoText}/>
+                 dispatch={store.dispatch.bind(store)}
+                // addTodoItem={store.addTodoItem.bind(store)}
+                // updateNewTodoText={store.updateNewTodoText.bind(store)}
+            />
         </React.StrictMode>, document.getElementById('root'));
 };
 
 
-rerenderEntireTree(state);
+rerenderEntireTree(store.getState());
 
-subscriber(rerenderEntireTree);
+store.subscribe(rerenderEntireTree);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

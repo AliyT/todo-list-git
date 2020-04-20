@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="1b316947-32a1-44cb-bc77-a3fbb4022475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Users/Users.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Users/Users.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -155,7 +167,10 @@
       <workItem from="1587175243153" duration="5471000" />
       <workItem from="1587262785981" duration="6246000" />
       <workItem from="1587269061406" duration="228000" />
-      <workItem from="1587279441954" duration="2452000" />
+      <workItem from="1587279441954" duration="2669000" />
+      <workItem from="1587287301439" duration="2974000" />
+      <workItem from="1587308878732" duration="744000" />
+      <workItem from="1587348582865" duration="6097000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
