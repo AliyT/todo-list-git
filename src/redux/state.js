@@ -1,3 +1,5 @@
+import appPageReducer from "./app-page-reducer";
+
 let store = {
     _state: {
         appPage: {
@@ -40,25 +42,12 @@ let store = {
     //     this._callSubscriber(this._state);
     // },
     dispatch(action) {
-        if (action.type === 'ADD-TODO-ITEM') {
-            let newTodo = ({
-                id: 4,
-                todo: this._state.appPage.newTodoText,
-            });
-            this._state.appPage.todos.push(newTodo);
-            this._state.appPage.newTodoText = '';
-            this._callSubscriber(this._state);
-        } else if (action.type === 'UPDATE-NEW-TODO-TEXT') {
-            this._state.appPage.newTodoText = action.newTodoText;
-            this._callSubscriber(this._state);
-        }
+        this._state.appPage = appPageReducer(this._state.appPage, action);
+
+        this._callSubscriber(this._state);
+
     }
 };
-
-// ActionCreators
-export const addTodoItemActionCreator = () => ({type: 'ADD-TODO-ITEM'})
-export const updateNewTodoTextActionCreator = (text) =>
-    ({type: 'UPDATE-NEW-TODO-TEXT', newTodoText: text})
 
 export default store;
 window.store = store;
