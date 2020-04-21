@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b316947-32a1-44cb-bc77-a3fbb4022475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Users/Users.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Users/Users.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/AppPage.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/AddTodo/AddTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppPage/Todos/MyTodos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,7 +158,10 @@
       <workItem from="1587279441954" duration="2669000" />
       <workItem from="1587287301439" duration="2974000" />
       <workItem from="1587308878732" duration="744000" />
-      <workItem from="1587348582865" duration="6097000" />
+      <workItem from="1587348582865" duration="6639000" />
+      <workItem from="1587406446553" duration="522000" />
+      <workItem from="1587407062899" duration="593000" />
+      <workItem from="1587435559101" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
@@ -203,53 +194,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="css module.sass" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1006" y="222" key="#ESLint" timestamp="1585937170774">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1006" y="222" key="#ESLint/0.40.1920.1040@0.40.1920.1040" timestamp="1585937170774" />
-    <state x="1104" y="222" key="#File_Watchers" timestamp="1585677227004">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1104" y="222" key="#File_Watchers/0.40.1920.1040@0.40.1920.1040" timestamp="1585677227004" />
-    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585894858965">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1585894858965" />
-    <state x="1014" y="184" key="CommitChangelistDialog2" timestamp="1585997074739">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1585997074739" />
-    <state x="1148" y="331" key="EditFileWatcherDialog" timestamp="1585677225748">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1148" y="331" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585677225748" />
-    <state x="1156" y="357" key="FileChooserDialogImpl" timestamp="1585903585194">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1585903585194" />
-    <state width="859" height="343" key="GridCell.Tab.0.bottom" timestamp="1585997110653">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="859" height="343" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
-    <state width="859" height="343" key="GridCell.Tab.0.center" timestamp="1585997110653">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="859" height="343" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
-    <state width="859" height="343" key="GridCell.Tab.0.left" timestamp="1585997110653">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="859" height="343" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
-    <state width="859" height="343" key="GridCell.Tab.0.right" timestamp="1585997110653">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="859" height="343" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585997110653" />
-    <state x="922" y="181" width="998" height="859" key="SettingsEditor" timestamp="1586103047677">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="922" y="181" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1586103047677" />
-    <state x="1164" y="270" key="search.everywhere.popup" timestamp="1585665861701">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1164" y="270" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1585665861701" />
+    <state x="1006" y="222" key="#ESLint" />
+    <state x="1006" y="222" key="#ESLint/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1104" y="222" key="#File_Watchers" />
+    <state x="1104" y="222" key="#File_Watchers/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1014" y="184" key="CommitChangelistDialog2" />
+    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1148" y="331" key="EditFileWatcherDialog" />
+    <state x="1148" y="331" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1156" y="357" key="FileChooserDialogImpl" />
+    <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" />
+    <state width="859" height="343" key="GridCell.Tab.0.bottom" />
+    <state width="859" height="343" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" />
+    <state width="859" height="343" key="GridCell.Tab.0.center" />
+    <state width="859" height="343" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" />
+    <state width="859" height="343" key="GridCell.Tab.0.left" />
+    <state width="859" height="343" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" />
+    <state width="859" height="343" key="GridCell.Tab.0.right" />
+    <state width="859" height="343" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1164" y="270" key="search.everywhere.popup" />
+    <state x="1164" y="270" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" />
   </component>
 </project>

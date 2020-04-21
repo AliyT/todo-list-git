@@ -55,5 +55,10 @@ let store = {
     }
 };
 
+// ActionCreators
+export const addTodoItemActionCreator = () => ({type: 'ADD-TODO-ITEM'})
+export const updateNewTodoTextActionCreator = (text) =>
+    ({type: 'UPDATE-NEW-TODO-TEXT', newTodoText: text})
+
 export default store;
 window.store = store;
