@@ -2,7 +2,7 @@ import React from 'react'
 import s from './AddTodo.module.sass'
 import {
     addTodoItemActionCreator,
-    updateNewTodoTextActionCreator} from "../../../../redux/app-page-reducer";
+    updateNewTodoTextActionCreator} from "../../../../redux/app-reducer";
 
 
 

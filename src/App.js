@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
-
+debugger
     return (
         <BrowserRouter>
             <div className="wrapper">

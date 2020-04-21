@@ -1,4 +1,4 @@
-import appPageReducer from "./app-page-reducer";
+import appReducer from "./app-reducer";
 
 let store = {
     _state: {
@@ -8,7 +8,7 @@ let store = {
                 {id: 2, todo: "Купить молоко"},
                 {id: 3, todo: "Завтра встать в 5:00"},
             ],
-            newTodoText: 'test text',
+            newTodoText: 'Дело 1',
         },
     },
     _callSubscriber() {
@@ -42,10 +42,9 @@ let store = {
     //     this._callSubscriber(this._state);
     // },
     dispatch(action) {
-        this._state.appPage = appPageReducer(this._state.appPage, action);
+        this._state.appPage = appReducer(this._state.appPage, action);
 
         this._callSubscriber(this._state);
-
     }
 };
 
