@@ -2,7 +2,6 @@ import React from 'react'
 import s from './Todo.module.sass'
 
 const Todo = (props) => {
-
     return (
         <div className={s.todoItem}>
             <span className={s.checkbox}>

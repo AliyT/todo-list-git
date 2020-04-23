@@ -7,17 +7,13 @@ import About from "./components/About/About";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
-debugger
     return (
         <BrowserRouter>
             <div className="wrapper">
                 <Header/>
                 <div className="pageWrapperContent">
                     <Route path='/app' render={() =>
-                        <AppPage appPage={props.state.appPage}
-                                 dispatch={props.dispatch}
-                                 // updateNewTodoText={props.updateNewTodoText}
-                        />}/>
+                        <AppPage store={props.store} />}/>
                     <Route path='/about' render={() => <About />}/>
                 </div>
                 <Footer/>

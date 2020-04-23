@@ -9,6 +9,7 @@ let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <React.StrictMode>
             <App state={state}
+                 store={store}
                  dispatch={store.dispatch.bind(store)}
                 // addTodoItem={store.addTodoItem.bind(store)}
                 // updateNewTodoText={store.updateNewTodoText.bind(store)}

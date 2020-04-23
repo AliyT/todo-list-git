@@ -3,9 +3,9 @@ import s from './MyTodos.module.sass'
 import Todo from "./Todo/Todo";
 
 const MyTodos = (props) => {
-
+    let state = props.appPage;
     let todoElement =
-        props.appPage.todos.map(t =>  <Todo todo={t.todo}/>)
+        state.todos.map(t => <Todo todo={t.todo}/>)
 
     return (
         <>
