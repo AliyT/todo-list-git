@@ -1,8 +1,6 @@
 import React from 'react'
 import s from './AddTodo.module.sass'
 
-
-
 const AddTodo = (props) => {
     let onAddTodoItem = () => {
         props.addTodoItem();

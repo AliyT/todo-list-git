@@ -4,16 +4,14 @@ import ReactDOM from 'react-dom'
 import './index.sass'
 import App from './App'
 import store from "./redux/redux-store";
+import {Provider} from "./StoreContex";
 
 let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <React.StrictMode>
-            <App state={state}
-                 store={store}
-                 dispatch={store.dispatch.bind(store)}
-                // addTodoItem={store.addTodoItem.bind(store)}
-                // updateNewTodoText={store.updateNewTodoText.bind(store)}
-            />
+            <Provider store={store}>
+                <App />
+            </Provider>
         </React.StrictMode>, document.getElementById('root'));
 };
 
