@@ -1,17 +1,17 @@
 import React from 'react'
 import MyTodos from "./MyTodos";
-import StoreContext from "../../../StoreContex";
+import {connect} from "react-redux";
 
-const MyTodosContainer = () => {
-    return (
-        <StoreContext.Consumer>
-            {(store) => {
-                let state = store.getState().appPage;
-                return <MyTodos appPage={state}/>
-                }
-            }
-        </StoreContext.Consumer>
-    );
-};
+const mapStateToProps = (state) => {
+    return {
+        appPage: state.appPage
+    }
+}
+
+const mapDispatchToProps = () => {
+    return { }
+}
+
+const MyTodosContainer = connect(mapStateToProps, mapDispatchToProps)(MyTodos);
 
 export default MyTodosContainer;

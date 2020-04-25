@@ -13,7 +13,7 @@ const App = (props) => {
                 <Header/>
                 <div className="pageWrapperContent">
                     <Route path='/app' render={() =>
-                        <AppPage />}/>
+                        <AppPage /> } />
                     <Route path='/about' render={() => <About />}/>
                 </div>
                 <Footer/>

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import './index.sass'
 import App from './App'
 import store from "./redux/redux-store";
-import {Provider} from "./StoreContex";
+import {Provider} from "react-redux";
 
 let rerenderEntireTree = (state) => {
     ReactDOM.render(

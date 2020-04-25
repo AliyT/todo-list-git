@@ -1,32 +1,26 @@
 import React from 'react'
 import {addTodoItemActionCreator, updateNewTodoTextActionCreator} from "../../../../redux/app-reducer";
 import AddTodo from "./AddTodo";
-import StoreContext from "../../../../StoreContex";
+import {connect} from "react-redux";
 
+let mapStateToProps = (state) => {
+    return {
+        newTodoText: state.appPage.newTodoText
+    }
+}
 
-const AddTodoContainer = () => {
-    return (
-        <StoreContext.Consumer>
-            {(store) => {
-                let state = store.getState();
+let mapDispatchToProps = (dispatch) => {
+    return {
+        updateNewTodoText: (text) => {
+            let action = updateNewTodoTextActionCreator(text);
+            dispatch(action);
+        },
+        addTodoItem: () => {
+            dispatch(addTodoItemActionCreator());
+        }
+    }
+}
 
-                let onAddTodoItem = () => {
-                    store.dispatch(addTodoItemActionCreator());
-                }
-
-                let onTodoChange = (text) => {
-                    let action = updateNewTodoTextActionCreator(text);
-                    store.dispatch(action);
-                }
-
-                return <AddTodo updateNewTodoText={onTodoChange}
-                                addTodoItem={onAddTodoItem}
-                                newTodoText={state.appPage.newTodoText}
-                />
-                }
-            }
-        </StoreContext.Consumer>
-    );
-};
+const AddTodoContainer = connect(mapStateToProps, mapDispatchToProps)(AddTodo);
 
 export default AddTodoContainer;
