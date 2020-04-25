@@ -5,7 +5,7 @@ import Todo from "./Todo/Todo";
 const MyTodos = (props) => {
     let state = props.appPage;
     let todoElement =
-        state.todos.map(t => <Todo todo={t.todo}/>)
+        state.todos.map(t => <Todo key={t.id} todo={t.todo}/>)
 
     return (
         <>

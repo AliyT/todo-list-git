@@ -18,16 +18,22 @@ const appReducer = (state = initialState, action) => {
                 todo: state.newTodoText,
             });
             // Делаем копию state для изменения состояния
-            let stateCopy = {...state}
-            stateCopy.todos = [...state.todos]
-            stateCopy.todos.push(newTodo);
-            stateCopy.newTodoText = '';
-            return stateCopy;
+            // Можно сделать так в одну строчку
+            // let stateCopy = {
+            //     ...state,
+            //     todos: [...state.todos]
+            // }
+            return {
+                ...state,
+                todos: [...state.todos, newTodo],
+                newTodoText: ''
+            }
         }
         case UPDATE_NEW_TODO_TEXT: {
-            let stateCopy = {...state}
-            stateCopy.newTodoText = action.newTodoText;
-            return stateCopy;
+            return {
+                ...state,
+                newTodoText: action.newTodoText
+            }
         }
         default:
             return state;
