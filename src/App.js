@@ -5,6 +5,7 @@ import AppPage from "./components/AppPage/AppPage";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import {BrowserRouter, Route} from "react-router-dom";
+import UsersContainer from "./components/Users/UsersContainer";
 
 const App = (props) => {
     return (
@@ -14,7 +15,10 @@ const App = (props) => {
                 <div className="pageWrapperContent">
                     <Route path='/app' render={() =>
                         <AppPage /> } />
+
                     <Route path='/about' render={() => <About />}/>
+
+                    <Route path='/users' render={() => <UsersContainer />}/>
                 </div>
                 <Footer/>
             </div>
