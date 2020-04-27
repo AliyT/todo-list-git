@@ -37,7 +37,6 @@ const usersReducer = (state = initialState, action) => {
             }
         case SET_USERS: // [...state.users, ...action.users] - склеиваем два массива
             return { ...state, users: [ ...state.users, ...action.users ]}
-
         default:
             return state;
     }
