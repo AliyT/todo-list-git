@@ -13,12 +13,11 @@ const App = (props) => {
             <div className="wrapper">
                 <Header/>
                 <div className="pageWrapperContent">
-                    <Route path='/app' render={() =>
-                        <AppPage /> } />
-
-                    <Route path='/about' render={() => <About />}/>
+                    <Route path='/app' render={() => <AppPage /> } />
 
                     <Route path='/users' render={() => <UsersContainer />}/>
+
+                    <Route path='/about' render={() => <About />}/>
                 </div>
                 <Footer/>
             </div>

@@ -9,10 +9,10 @@ const Navbar = () => {
                 <NavLink to="/app" activeClassName={s.activeLink}>Приложение</NavLink>
             </div>
             <div className={s.link}>
-                <NavLink to="/about" activeClassName={s.activeLink}>О нас</NavLink>
+                <NavLink to="/users" activeClassName={s.activeLink}>Пользователи</NavLink>
             </div>
             <div className={s.link}>
-                <NavLink to="/users" activeClassName={s.activeLink}>Пользователи</NavLink>
+                <NavLink to="/about" activeClassName={s.activeLink}>О нас</NavLink>
             </div>
         </nav>
     )

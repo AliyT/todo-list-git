@@ -1,36 +1,14 @@
 import React from "react"
 import s from "./Users.module.sass"
+import * as axios from "axios";
+import userPhoto from "../../assets/images/userAvatar.jpg"
 
 const Users = (props) => {
-
-    if (props.users.length ===0) {
-        props.setUsers([
-                {
-                    id: 1,
-                    photoUrl: 'https://www.iconninja.com/files/592/204/968/communication-male-cyber-avatar-man-person-crime-human-profile-head-anonymous-hacker-creative-icon.svg',
-                    followed: false,
-                    fullName: 'Aliy',
-                    status: "I'am a boss",
-                    location: {city: 'Nalchik', country: 'Russia'}
-                },
-                {
-                    id: 2,
-                    photoUrl: 'https://www.iconninja.com/files/592/204/968/communication-male-cyber-avatar-man-person-crime-human-profile-head-anonymous-hacker-creative-icon.svg',
-                    followed: true,
-                    fullName: 'Sasha',
-                    status: "I'am a boss too",
-                    location: {city: 'Kiev', country: 'Ukraine'}
-                },
-                {
-                    id: 3,
-                    photoUrl: 'https://www.iconninja.com/files/592/204/968/communication-male-cyber-avatar-man-person-crime-human-profile-head-anonymous-hacker-creative-icon.svg',
-                    followed: false,
-                    fullName: 'Andrew',
-                    status: "I'am a boss too",
-                    location: {city: 'Minsk', country: 'Belarus'}
-                },
-            ]
-        )
+    if (props.users.length === 0) {
+        axios.get("https://social-network.samuraijs.com/api/1.0/users")
+            .then(response => {
+                props.setUsers(response.data.items)
+            })
     }
 
     return (
@@ -39,7 +17,7 @@ const Users = (props) => {
                 props.users.map(u =>
                     <div key={u.id}>
                         <div className={s.userProfileAvatar}>
-                            <img src={u.photoUrl}/>
+                            <img src={u.photos.small !== null ? u.photos.small : userPhoto}/>
                         </div>
                         <div>
                             {u.followed
@@ -52,8 +30,8 @@ const Users = (props) => {
                             <div>{u.status}</div>
                         </div>
                         <div>
-                            <div>{u.location.country}</div>
-                            <div>{u.location.city}</div>
+                            <div>{"u.location.country"}</div>
+                            <div>{"u.location.city"}</div>
                         </div>
                     </div>)
             }
