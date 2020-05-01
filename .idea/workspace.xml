@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bb3095-2bc2-4567-a4ad-21f803c579af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/ProfileInfo/ProfileInfo.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -60,18 +71,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Users" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\AddTodo" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\assets\images" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Users" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\AddTodo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,7 +197,9 @@
       <workItem from="1588092838516" duration="91000" />
       <workItem from="1588093494003" duration="2057000" />
       <workItem from="1588167321705" duration="6233000" />
-      <workItem from="1588174487004" duration="719000" />
+      <workItem from="1588174487004" duration="1237000" />
+      <workItem from="1588234854176" duration="9239000" />
+      <workItem from="1588346152264" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>

@@ -1,6 +1,7 @@
 import React from "react"
 import s from "./Users.module.sass"
 import userPhoto from "../../assets/images/userAvatar.jpg"
+import {NavLink} from "react-router-dom";
 
 let Users = (props) => {
     // получаем количиество количество страниц 1 2 3
@@ -27,7 +28,9 @@ let Users = (props) => {
                 props.users.map(u =>
                     <div key={u.id}>
                         <div className={s.userProfileAvatar}>
-                            <img src={u.photos.small !== null ? u.photos.small : userPhoto}/>
+                            <NavLink to={"/profile/" + u.id}>
+                                <img src={u.photos.small !== null ? u.photos.small : userPhoto}/>
+                            </NavLink>
                         </div>
                         <div>
                             {u.followed

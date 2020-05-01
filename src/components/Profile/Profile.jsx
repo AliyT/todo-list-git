@@ -1,13 +1,14 @@
 import React from "react"
-import s from "./About.module.sass"
+import s from "./Profile.module.sass"
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const About = () => {
+const Profile = (props) => {
+
     return (
         <div className={s.aboutWrapper}>
-            <ProfileInfo/>
+            <ProfileInfo profile={props.profile} />
         </div>
     )
 }
 
-export default About
+export default Profile

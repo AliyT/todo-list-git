@@ -12,7 +12,7 @@ const Navbar = () => {
                 <NavLink to="/users" activeClassName={s.activeLink}>Пользователи</NavLink>
             </div>
             <div className={s.link}>
-                <NavLink to="/about" activeClassName={s.activeLink}>О нас</NavLink>
+                <NavLink to="/profile" activeClassName={s.activeLink}>Профиль</NavLink>
             </div>
         </nav>
     )
