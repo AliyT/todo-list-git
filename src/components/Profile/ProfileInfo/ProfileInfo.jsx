@@ -6,7 +6,7 @@ const ProfileInfo = (props) => {
     if (!props.profile) {
         return <Preloader/>
     }
-debugger
+
     return (
         <div className={s.profileInfo}>
             <p>Заглушка</p>
@@ -21,7 +21,6 @@ debugger
             <div className={s.userInfo}>
                 <div>ФИО: {props.profile.fullName}</div>
                 <div>Статус: {props.profile.aboutMe}</div>
-                <div>Контакты: {props.profile.contacts.vk}</div>
                 <div>Контакты:
                     {Object.values(props.profile.contacts)
                     .map(contact => {
