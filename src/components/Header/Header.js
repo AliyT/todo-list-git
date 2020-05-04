@@ -8,7 +8,7 @@ const Header = (props) => {
         <div className={s.header}>
             <div className={s.logoWrapper}>
                 <img
-                    src="https://expert365.com.au/wp-content/uploads/2017/09/4.png"/>
+                    src="https://expert365.com.au/wp-content/uploads/2017/09/4.png" alt=""/>
             </div>
             <Navbar />
             <div className={s.loginBlock}>

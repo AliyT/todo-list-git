@@ -1,4 +1,3 @@
-import React from 'react'
 import {addTodoItemActionCreator, updateNewTodoTextActionCreator} from "../../../../redux/app-reducer";
 import AddTodo from "./AddTodo";
 import {connect} from "react-redux";

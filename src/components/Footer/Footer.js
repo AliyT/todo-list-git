@@ -6,7 +6,7 @@ const Footer = () => {
         <div className={s.footer}>
             <div className={s.logoWrapper}>
                 <img
-                    src="https://expert365.com.au/wp-content/uploads/2017/09/4.png"/>
+                    src="https://expert365.com.au/wp-content/uploads/2017/09/4.png" alt=""/>
             </div>
         </div>
     );
