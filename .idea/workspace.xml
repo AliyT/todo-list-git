@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bb3095-2bc2-4567-a4ad-21f803c579af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +194,11 @@
       <workItem from="1588346152264" duration="2760000" />
       <workItem from="1588430792767" duration="3404000" />
       <workItem from="1588529748412" duration="3700000" />
-      <workItem from="1588600199567" duration="4752000" />
+      <workItem from="1588600199567" duration="4887000" />
+      <workItem from="1588697571086" duration="1860000" />
+      <workItem from="1588699543948" duration="1796000" />
+      <workItem from="1588701370381" duration="1745000" />
+      <workItem from="1588705979629" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
