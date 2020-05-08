@@ -7,7 +7,7 @@ import {
     unfollow, toggleFollowingProgress, getUsers
 } from "../../redux/users-reducer";
 import Preloader from "../common/Preloader/Preloader";
-import {usersAPI} from "../../api/api";
+import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
 class UsersContainer extends React.Component {
     componentDidMount() {
@@ -34,7 +34,6 @@ class UsersContainer extends React.Component {
     }
 }
 
-
 const mapStateToProps = (state) => {
     return {
         users: state.usersPage.users,
@@ -42,33 +41,11 @@ const mapStateToProps = (state) => {
         totalUsersCount: state.usersPage.totalUsersCount,
         currentPage: state.usersPage.currentPage,
         isFetching: state.usersPage.isFetching,
-        followingInProgress: state.usersPage.followingInProgress
+        followingInProgress: state.usersPage.followingInProgress,
     }
 }
 
-// const mapDispatchToProps = (dispatch) => {
-//     return {
-//         follow: (userId) => {
-//             dispatch(followAC(userId))
-//         },
-//         unfollow: (userId) => {
-//             dispatch(unfollowAC(userId))
-//         },
-//         setUsers: (users) => {
-//             dispatch(setUsersAC(users))
-//         },
-//         setCurrentPage: (pageNumber) => {
-//             dispatch(setCurrentPageAC(pageNumber))
-//         },
-//         setTotalUsersCount: (totalCount) => {
-//             dispatch(setUsersTotalCountAC(totalCount))
-//         },
-//         toggleIsFetching: (isFetching) => {
-//             dispatch(toggleIsFetchingAC(isFetching))
-//         }
-//     }
-// }
-
-export default connect(mapStateToProps,{
+// withAuthRedirect HOC
+export default withAuthRedirect(connect(mapStateToProps,{
         follow, unfollow, setCurrentPage, getUsers})
-(UsersContainer)
+(UsersContainer))
