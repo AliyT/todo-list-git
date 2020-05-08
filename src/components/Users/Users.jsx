@@ -2,7 +2,6 @@ import React from "react"
 import s from "./Users.module.sass"
 import userPhoto from "../../assets/images/userAvatar.jpg"
 import {NavLink} from "react-router-dom";
-import {usersAPI} from "../../api/api";
 
 let Users = (props) => {
     // получаем количиество количество страниц 1 2 3
