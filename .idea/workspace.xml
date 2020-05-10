@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bb3095-2bc2-4567-a4ad-21f803c579af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -63,18 +63,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Header" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Users" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\assets\images" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile\ProfileInfo" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Header" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,7 +201,8 @@
       <workItem from="1588705979629" duration="105000" />
       <workItem from="1588872541349" duration="3514000" />
       <workItem from="1588941354948" duration="4695000" />
-      <workItem from="1588947379667" duration="5249000" />
+      <workItem from="1588947379667" duration="5621000" />
+      <workItem from="1589094465811" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
