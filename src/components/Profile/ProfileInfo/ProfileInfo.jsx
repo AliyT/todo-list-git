@@ -16,7 +16,7 @@ const ProfileInfo = (props) => {
                         ? props.profile.photos.large
                         : "https://clck.ru/N43d9"}/>
             </div>
-            <ProfileStatus status={props.profile.aboutMe}/>
+            <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
             {/*<div className={s.userInfo}>*/}
             {/*    <div>ФИО: {props.profile.fullName}</div>*/}
             {/*    <div>Статус: {props.profile.aboutMe}</div>*/}
