@@ -4,6 +4,7 @@ import usersReducer from "./users-reducer";
 import profileReducer from "./profile-reducer";
 import authReducer from "./auth-reducer";
 import thunkMiddleware from "redux-thunk";
+import { reducer as formReducer } from 'redux-form'
 
 // appPage - это state который можно получить с помощью getState();
 let reducers = combineReducers({
@@ -11,7 +12,8 @@ let reducers = combineReducers({
     // таким образом получаем ветку state в mapStateToProps users: state.usersPage.users
     usersPage: usersReducer,
     profilePage: profileReducer,
-    auth: authReducer
+    auth: authReducer,
+    form: formReducer
 });
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));
