@@ -8,7 +8,9 @@ const Profile = (props) => {
         <div className={s.aboutWrapper}>
             <ProfileInfo profile={props.profile}
                          status={props.status}
+                         posts={props.posts}
                          updateStatus={props.updateStatus}
+                         addPost={props.addPost}
             />
         </div>
     )
