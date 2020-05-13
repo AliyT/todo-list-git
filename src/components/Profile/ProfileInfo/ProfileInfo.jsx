@@ -3,12 +3,21 @@ import React from "react";
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatus from "./ProfileStatus";
 import {Field, reduxForm} from "redux-form";
+import {maxLengthCreator, required} from "../../utils/validators/validators";
+import {NewElement} from "../../common/FormsControls/FormsControls";
+
+const maxLength10 = maxLengthCreator(10);
+debugger
+const Textarea = NewElement("textarea");
 
 const AddPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
-                <Field component={"textarea"} name={"newPostText"} placeholder={"Post text"} />
+                <Field component={Textarea} name={"newPostText"}
+                       placeholder={"Post text"}
+                       validate={[required, maxLength10]}
+                />
             </div>
             <button>Add post</button>
         </form>
@@ -23,6 +32,7 @@ const ProfileInfo = (props) => {
     }
 
     const addNewPost = (values) => {
+        debugger
         props.addPost(values.newPostText)
     };
 
@@ -35,11 +45,11 @@ const ProfileInfo = (props) => {
             </div>
             <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
             <hr/>
-
-            {props.posts.map(p => {
-                return <div>{p.postText}</div>;
-            })}
             <AddReduxForm onSubmit={addNewPost} />
+            {props.posts.map(p => {
+                return <div><img src={props.profile.photos.small} />{p.postText}</div>;
+            })}
+
         </div>
     )
 }
