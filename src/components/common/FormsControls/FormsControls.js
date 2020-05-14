@@ -26,7 +26,7 @@ import s from "./FormsControls.module.sass"
 // }
 
 // Вместо дублирования пишем такой HOC
-export const NewElement = NewElement => ({ input, meta, ...props }) => {
+export const NewElement = (NewElement) => ({ input, meta, ...props }) => {
     const hasError = meta.touched && meta.error;
     return (
         <div className={ s.formControl + " " + (hasError ? s.error : "") }>

@@ -7,7 +7,6 @@ import {maxLengthCreator, required} from "../../utils/validators/validators";
 import {NewElement} from "../../common/FormsControls/FormsControls";
 
 const maxLength10 = maxLengthCreator(10);
-debugger
 const Textarea = NewElement("textarea");
 
 const AddPostForm = (props) => {
