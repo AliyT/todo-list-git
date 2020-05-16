@@ -5,6 +5,7 @@ import {required} from "../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/auth-reducer";
 import {Redirect} from "react-router-dom";
+import s from "../common/FormsControls/FormsControls.module.sass"
 
 let Input = NewElement("input");
 
@@ -17,7 +18,7 @@ const LoginForm = (props) => {
                        component={Input}/>
             </div>
             <div>
-                <Field placeholder={"Пароль"} name={"password"}
+                <Field placeholder={"Password"} name={"password"}
                        type={"password"}
                        validate={[required]}
                        component={Input}/>
@@ -26,6 +27,10 @@ const LoginForm = (props) => {
                 <Field type={"checkbox"} name={"rememberMe"}
                        component={Input}/> Запомнить
             </div>
+            { props.error && <div className={s.formSummaryError}>
+                    {props.error}
+                </div>
+            }
             <div>
                 <button>Войти</button>
             </div>
