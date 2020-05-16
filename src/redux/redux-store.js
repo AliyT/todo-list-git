@@ -5,6 +5,7 @@ import profileReducer from "./profile-reducer";
 import authReducer from "./auth-reducer";
 import thunkMiddleware from "redux-thunk";
 import { reducer as formReducer } from 'redux-form'
+import mainAppReducer from "./mainApp-reducer";
 
 // appPage - это state который можно получить с помощью getState();
 let reducers = combineReducers({
@@ -13,7 +14,8 @@ let reducers = combineReducers({
     usersPage: usersReducer,
     profilePage: profileReducer,
     auth: authReducer,
-    form: formReducer
+    form: formReducer,
+    mainApp: mainAppReducer
 });
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));
