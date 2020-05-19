@@ -5,6 +5,7 @@ import ProfileStatus from "./ProfileStatus";
 import {Field, reduxForm} from "redux-form";
 import {maxLengthCreator, required} from "../../utils/validators/validators";
 import {NewElement} from "../../common/FormsControls/FormsControls";
+import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
 const maxLength10 = maxLengthCreator(10);
 const Textarea = NewElement("textarea");
@@ -42,7 +43,7 @@ const ProfileInfo = (props) => {
                         ? props.profile.photos.large
                         : "https://clck.ru/N43d9"}/>
             </div>
-            <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
+            <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
             <hr/>
             <AddReduxForm onSubmit={addNewPost} />
             {props.posts.map(p => {
