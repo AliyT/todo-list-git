@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bb3095-2bc2-4567-a4ad-21f803c579af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="todo-list-git" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,15 +63,15 @@
   <component name="ProjectId" id="1ZtC2wOGZKtJif9WiNd7RljBil1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/MyPosts/Post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -60,31 +83,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile\ProfileInfo" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\common\FormsControls" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Header" />
-      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\assets\images" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
       <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\AppPage\Todos\Todo" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile\MyPosts\Post" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile\MyPost" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\Profile\ProfileInfo" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\redux" />
+      <recent name="D:\Users\Алий\Desktop\JS_learn\todo-list-git\src\components\common\FormsControls" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -216,7 +227,12 @@
       <workItem from="1589732023497" duration="910000" />
       <workItem from="1589806966676" duration="2536000" />
       <workItem from="1589898050303" duration="1980000" />
-      <workItem from="1589901501641" duration="598000" />
+      <workItem from="1589901501641" duration="768000" />
+      <workItem from="1590041850678" duration="86000" />
+      <workItem from="1590042085586" duration="219000" />
+      <workItem from="1590042862168" duration="224000" />
+      <workItem from="1590043120911" duration="10299000" />
+      <workItem from="1590658861001" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="css module.sass">
       <created>1585997076399</created>
@@ -229,7 +245,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -237,7 +253,22 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -258,35 +289,54 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="css module.sass" />
     <option name="LAST_COMMIT_MESSAGE" value="css module.sass" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1006" y="222" key="#ESLint" />
-    <state x="1006" y="222" key="#ESLint/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1104" y="222" key="#File_Watchers" />
-    <state x="1104" y="222" key="#File_Watchers/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser" />
-    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1014" y="184" key="CommitChangelistDialog2" />
-    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1148" y="331" key="EditFileWatcherDialog" />
-    <state x="1148" y="331" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1156" y="357" key="FileChooserDialogImpl" />
-    <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" />
-    <state width="859" height="343" key="GridCell.Tab.0.bottom" />
-    <state width="859" height="343" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" />
-    <state width="859" height="343" key="GridCell.Tab.0.center" />
-    <state width="859" height="343" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" />
-    <state width="859" height="343" key="GridCell.Tab.0.left" />
-    <state width="859" height="343" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" />
-    <state width="859" height="343" key="GridCell.Tab.0.right" />
-    <state width="859" height="343" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" />
-    <state x="922" y="181" width="998" height="859" key="SettingsEditor" />
-    <state x="922" y="181" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" />
-    <state x="1164" y="270" key="search.everywhere.popup" />
-    <state x="1164" y="270" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" />
+    <state x="1006" y="222" key="#ESLint" timestamp="1590043137929" />
+    <state x="1006" y="222" key="#ESLint/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1104" y="222" key="#File_Watchers" timestamp="1590043137932" />
+    <state x="1104" y="222" key="#File_Watchers/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1093" y="241" key="#Inspections" timestamp="1590053785938">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="241" key="#Inspections/0.40.1920.1040@0.40.1920.1040" timestamp="1590053785938" />
+    <state x="1318" y="422" key="#Notifications" timestamp="1590043140021">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1318" y="422" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1590043140021" />
+    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590043137932" />
+    <state x="1201" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1014" y="184" key="CommitChangelistDialog2" timestamp="1590043137932" />
+    <state x="1014" y="184" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1148" y="331" key="EditFileWatcherDialog" timestamp="1590043137932" />
+    <state x="1148" y="331" key="EditFileWatcherDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1156" y="357" key="FileChooserDialogImpl" timestamp="1590043137932" />
+    <state x="1156" y="357" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state width="932" height="276" key="GridCell.Tab.0.bottom" timestamp="1590660282842">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="932" height="276" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1590660282842" />
+    <state width="932" height="276" key="GridCell.Tab.0.center" timestamp="1590660282839">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="932" height="276" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1590660282839" />
+    <state width="932" height="276" key="GridCell.Tab.0.left" timestamp="1590660282839">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="932" height="276" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1590660282839" />
+    <state width="932" height="276" key="GridCell.Tab.0.right" timestamp="1590660282839">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="932" height="276" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1590660282839" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor" timestamp="1590043137932" />
+    <state x="922" y="181" width="998" height="859" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1590043137932" />
+    <state x="1164" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1590659404156">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1164" y="270" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1590659404156" />
   </component>
 </project>

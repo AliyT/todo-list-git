@@ -8,7 +8,9 @@ let initialState = {
     profile: null,
     status: "",
     posts: [
-        {id: 1, postText: "NewPost 1"}
+        {id: 1, postText: "Hi, how are you?"},
+        {id: 2, postText: "It's my first post."},
+        {id: 3, postText: "Blablabla"},
     ]
 }
 
@@ -23,7 +25,7 @@ const profileReducer = (state = initialState, action) => {
         case ADD_POST:
             return {
                 ...state,
-                posts: [...state.posts, {id: 2, postText: action.newPostText}]
+                posts: [...state.posts, {id: 4, postText: action.newPostText}]
         }
         default:
             return state;
